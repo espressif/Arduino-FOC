@@ -1,0 +1,18 @@
+version: "2.3.0"
+description: Arduino FOC for BLDC and Stepper motors (SimpleFOC)
+url: https://github.com/espressif/Arduino-FOC
+repository: https://github.com/espressif/Arduino-FOC.git
+documentation: https://docs.simplefoc.com/
+issues: https://github.com/espressif/Arduino-FOC/issues
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+dependencies:
+  idf:
+    version: ">=4.4"
+  esp_simplefoc:
+    version: "*"
+files:
+  exclude:
+    - "examples/**/*"
