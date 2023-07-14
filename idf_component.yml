@@ -11,8 +11,6 @@ targets:
 dependencies:
   idf:
     version: ">=4.4"
-  esp_simplefoc:
-    version: "*"
 files:
   exclude:
     - "examples/**/*"
