@@ -6,7 +6,7 @@
 #ifndef StepperMotor_h
 #define StepperMotor_h
 
-#include "Arduino.h"
+#include "esp_platform.h"
 #include "common/base_classes/FOCMotor.h"
 #include "common/base_classes/StepperDriver.h"
 #include "common/base_classes/Sensor.h"
