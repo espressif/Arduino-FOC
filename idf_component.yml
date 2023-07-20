@@ -1,4 +1,4 @@
-version: "2.3.0"
+version: "2.3.0~1"
 description: Arduino FOC for BLDC and Stepper motors (SimpleFOC)
 url: https://github.com/espressif/Arduino-FOC
 repository: https://github.com/espressif/Arduino-FOC.git

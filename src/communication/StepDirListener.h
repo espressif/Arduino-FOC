@@ -1,7 +1,7 @@
 #ifndef STEPDIR_H
 #define STEPDIR_H
 
-#include "Arduino.h"
+#include "esp_platform.h"
 #include "../common/foc_utils.h"
 
 

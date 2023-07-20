@@ -1,7 +1,7 @@
 #ifndef BLDCDRIVER_H
 #define BLDCDRIVER_H
 
-#include "Arduino.h"
+#include "esp_platform.h"
 
 
 enum PhaseState : uint8_t {

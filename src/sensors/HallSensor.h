@@ -1,7 +1,7 @@
 #ifndef HALL_SENSOR_LIB_H
 #define HALL_SENSOR_LIB_H
 
-#include "Arduino.h"
+#include "esp_platform.h"
 #include "../common/base_classes/Sensor.h"
 #include "../common/foc_utils.h"
 #include "../common/time_utils.h"
