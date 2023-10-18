@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v2.3.0~2 - 2023-10-18
+
+* Support ESP32-C3
+
 ## v2.3.0~1 - 2023-07-20
 
 * Replace Arduino with esp_platform implementations
