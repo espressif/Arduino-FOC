@@ -6,6 +6,9 @@ This fork repository is wrapped as an ESP-IDF component, which offers the algori
 
 To drive the motors, you need to use this component together with [esp_simplefoc](https://github.com/espressif/esp-iot-solution/tree/master/components/motor/esp_simplefoc), which offers the hardware drivers for motors.
 
+## Supported SoCs
+
+The driver supports all ESP chips with `LEDC` or `MCPWM` peripherals, please refer to [esp_simplefoc](https://github.com/espressif/esp-iot-solution/tree/master/components/motor/esp_simplefoc) for details.
 
 ## How to use
 
