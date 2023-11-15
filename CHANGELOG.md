@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v2.3.0~3 - 2023-11-15
+
+* Support all esp chips by default (except esp8266)
+
 ## v2.3.0~2 - 2023-10-18
 
 * Support ESP32-C3
