@@ -1,7 +1,7 @@
 #ifndef ENCODER_LIB_H
 #define ENCODER_LIB_H
 
-#include "Arduino.h"
+#include "common/esp_platform_compat.h"
 #include "../common/foc_utils.h"
 #include "../common/time_utils.h"
 #include "../common/base_classes/Sensor.h"

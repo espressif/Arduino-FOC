@@ -249,15 +249,15 @@ void BLDCMotor::setPhaseVoltage(float Uq, float Ud, float angle_el) {
           // discussed here: https://community.simplefoc.com/t/embedded-world-2023-stm32-cordic-co-processor/3107/165?u=candas1
           // a bit more info here: https://microchipdeveloper.com/mct5001:which-zsm-is-best
           // Midpoint Clamp
-          float Umin = min(Ua, min(Ub, Uc));
-          float Umax = max(Ua, max(Ub, Uc));
+          float Umin = fminf(Ua, fminf(Ub, Uc));
+          float Umax = fmaxf(Ua, fmaxf(Ub, Uc));
           center -= (Umax+Umin) / 2;
         } 
         Ua += center;
         Ub += center;
         Uc += center;
       }else{
-        float Umin = min(Ua, min(Ub, Uc));
+        float Umin = fminf(Ua, fminf(Ub, Uc));
         Ua -= Umin;
         Ub -= Umin;
         Uc -= Umin;

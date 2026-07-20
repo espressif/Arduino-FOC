@@ -6,7 +6,7 @@
 #ifndef HybridStepperMotor_h
 #define HybridStepperMotor_h
 
-#include "Arduino.h"
+#include "common/esp_platform_compat.h"
 #include "common/base_classes/FOCMotor.h"
 #include "common/base_classes/StepperDriver.h"
 #include "common/base_classes/Sensor.h"

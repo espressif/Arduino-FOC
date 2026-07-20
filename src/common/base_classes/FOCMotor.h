@@ -1,7 +1,7 @@
 #ifndef FOCMOTOR_H
 #define FOCMOTOR_H
 
-#include "Arduino.h"
+#include "common/esp_platform_compat.h"
 #include "Sensor.h"
 #include "CurrentSense.h"
 
