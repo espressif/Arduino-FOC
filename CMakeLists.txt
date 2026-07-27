@@ -27,7 +27,9 @@ set(INC_FILES
 
 set(IGNORE_FILES
     "src/sensors/Encoder.cpp"
-    "src/sensors/HallSensor.cpp")
+    "src/sensors/HallSensor.cpp"
+    "src/common/base_classes/FOCMotor.cpp"
+    "src/communication/Commander.cpp")
 
 idf_component_register(SRCS ${SRC_FILES} INCLUDE_DIRS ${INC_FILES})
 
@@ -35,4 +37,10 @@ set_source_files_properties(
     ${IGNORE_FILES}
     PROPERTIES
         COMPILE_OPTIONS
-        "-Wno-volatile;-Wno-deprecated-enum-float-conversion;-Wno-missing-field-initializers")
+        "-Wno-volatile;-Wno-deprecated-enum-float-conversion;-Wno-missing-field-initializers;-Wno-implicit-fallthrough;-Wno-switch")
+
+set_source_files_properties(
+    "src/common/base_classes/CurrentSense.cpp"
+    PROPERTIES
+        COMPILE_OPTIONS
+        "-Wno-unused-variable")
