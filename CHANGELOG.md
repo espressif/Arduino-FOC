@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.4.0~1
+
+* Fix `-Werror` build failures in `Commander.cpp` and `FOCMotor.cpp`; silence upstream unused-variable warnings in `CurrentSense.cpp`.
+
 ## v2.4.0 - 2026-07-20
 
 * Based on [Arduino-FOC v2.4.0](https://github.com/simplefoc/Arduino-FOC/releases/tag/v2.4.0).
